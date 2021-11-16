@@ -1,0 +1,104 @@
+.main-div{
+  background-color: rgb(135, 240, 240);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  /* text-align: center;
+  flex-direction: row; */
+}
+
+.center-div{
+  height: 500px;
+  width: 400px;
+  /* display: flexbox; */
+  /* margin: auto; */
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 1);
+  /* align-items: center; */
+  /* justify-items: center; */
+  background-color: white;
+}
+input[type='text']{
+  display: inline-block;
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border:none;
+  height: 15px;
+  border-bottom: 2px solid violet;
+  text-align: center;
+  background: transparent;
+  outline: none;
+}
+
+
+
+button{
+  min-height: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 20px;
+  width: 40px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, .3);
+}
+button:hover{
+  background-color: #20bf6b;
+}
+
+h1{
+  background: transparent;
+  background-color: rgb(5, 65, 55);
+  color: white;
+  padding: 6px 0 2px 0;
+  margin-top: 20px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, .3);
+  text-align: center;
+} 
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  /* margin-left: 50px; */
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+  
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  /* cursor: pointer; */
+}
+.todo_style .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, .3);
+  cursor: pointer;
+}
+
+.todo_style .fa-times:hover{
+  background-color: crimson;
+}
+/* .todo_style .fa-times:hover .list_style{
+  color: crimson;
+} */

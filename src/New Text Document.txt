@@ -1,0 +1,4 @@
+Question1 : How did you implment this application show the procedure ?
+Answer:  firstly i have designed with jsx the skeleton part of the todo app. i had given two div with class name of main div and center div main div was the whole page and styled with css and given every element to the center of the site then the center div its the ui of my to do app and styled with css
+
+Functionality: there is input area where you going to add text for the todo and in right there is add button which use is to add the text in to the array onClick of button there is onchange function in input field which use 
