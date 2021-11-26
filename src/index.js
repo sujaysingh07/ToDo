@@ -1,14 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import App from './App';
-// import Demo from './Demo'
-
-
+import Weather from "./Component/card/Weather"
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    {/* <Demo/> */}
+  <Weather/>
   </React.StrictMode>,
   document.getElementById('root')
 );

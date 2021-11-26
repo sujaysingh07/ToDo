@@ -1,0 +1,49 @@
+.main-div{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    .center-div{
+        background-color: azure;
+        width: 500px;
+        // border: 2px solid crimsop
+        height: 500px;
+        border-radius: 5px;
+        box-shadow: 0 3px 6px 0 #555;
+    }
+    h1{
+        background-color: cadetblue;
+        margin-top: 10%;
+        padding: 10px;
+        
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    input[type="text"]{
+        margin-top: 20%;
+        padding: 10px;
+        background-color: cornsilk;
+        border: none;
+        outline: none;
+    }
+    input[type="text"]:hover{
+        background-color: darkseagreen;
+        
+
+    }
+    button{
+        padding: 10px;
+        background-color: crimson;
+        color: white;
+        border: none;
+        outline: none;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+}
